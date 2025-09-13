@@ -25,7 +25,7 @@ for ( category of categories){
     categoryDiv.innerHTML =
     `
     
-    <button onClick = "loadPlants()"  >
+    <button class="active:bg-blue-700" id =`;categoryName` >
     ${category.category_name}
    </button>
     `
@@ -61,7 +61,7 @@ for ( category of categories){
    </button>
     `
    
- console.log( categoryName)
+
 
  
     
